@@ -1,4 +1,5 @@
 import sys
+from pathlib import Path
 
 from src.data_preparation import load_data, prepare_data
 from src.evaluate_model import report
